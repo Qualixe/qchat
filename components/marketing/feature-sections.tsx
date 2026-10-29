@@ -54,7 +54,7 @@ export function FeatureSections() {
     <section id="features" className="scroll-mt-20 border-t bg-muted/20 py-24">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="mx-auto max-w-2xl text-center">
-          <p className="text-sm font-medium text-cyan-300">Features</p>
+          <p className="text-sm font-medium text-violet-400">Features</p>
           <h2 className="mt-2 font-display text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
             Everything your team needs to sell through chat
           </h2>
@@ -63,7 +63,7 @@ export function FeatureSections() {
           {FEATURES.map((feature, index) => (
             <article key={feature.eyebrow} className="grid items-center gap-10 lg:grid-cols-2">
               <div className={index % 2 ? "lg:order-2" : undefined}>
-                <p className="flex items-center gap-2 text-sm font-medium text-cyan-300">
+                <p className="flex items-center gap-2 text-sm font-medium text-violet-400">
                   <feature.icon className="size-4" aria-hidden="true" /> {feature.eyebrow}
                 </p>
                 <h3 className="mt-3 font-display text-2xl font-semibold tracking-tight">{feature.title}</h3>

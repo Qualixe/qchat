@@ -11,7 +11,7 @@ export function PricingSection() {
     <section id="pricing" className="scroll-mt-20 py-24">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="mx-auto max-w-2xl text-center">
-          <p className="text-sm font-medium text-cyan-300">Pricing</p>
+          <p className="text-sm font-medium text-violet-400">Pricing</p>
           <h2 className="mt-2 font-display text-3xl font-semibold tracking-tight sm:text-4xl">Simple plans that grow with you</h2>
           <p className="mt-3 text-sm text-muted-foreground">Placeholder pricing for this prototype — final prices may differ.</p>
         </div>
@@ -84,7 +84,7 @@ export function FaqSection() {
     <section id="faq" className="scroll-mt-20 border-t bg-muted/20 py-24">
       <div className="mx-auto max-w-3xl px-4 sm:px-6">
         <div className="text-center">
-          <p className="text-sm font-medium text-cyan-300">FAQ</p>
+          <p className="text-sm font-medium text-violet-400">FAQ</p>
           <h2 className="mt-2 font-display text-3xl font-semibold tracking-tight sm:text-4xl">Questions, answered</h2>
         </div>
         <Accordion type="single" collapsible className="mt-10 rounded-2xl border bg-background px-5">
@@ -104,7 +104,7 @@ export function FinalCta() {
   return (
     <section className="py-24">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
-        <div className="relative overflow-hidden rounded-3xl border border-white/10 bg-[linear-gradient(120deg,#4338ca_0%,#4f46e5_40%,#0891b2_100%)] px-6 py-16 text-center text-white shadow-[0_0_100px_-30px_rgba(79,70,229,0.7)] sm:px-12">
+        <div className="relative overflow-hidden rounded-3xl border border-white/10 bg-[linear-gradient(135deg,#5b21b6_0%,#7c3aed_45%,#9333ea_100%)] px-6 py-16 text-center text-white shadow-[0_0_100px_-30px_rgba(124,58,237,0.7)] sm:px-12">
           <div aria-hidden="true" className="bg-grid absolute inset-0 opacity-10 [--border:white]" />
           <h2 className="relative font-display text-3xl font-semibold tracking-tight text-balance sm:text-4xl">
             Ready to answer every customer, instantly?
