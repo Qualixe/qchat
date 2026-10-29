@@ -21,7 +21,7 @@ export function HowItWorks() {
     <section id="how-it-works" className="scroll-mt-20 py-24">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="mx-auto max-w-2xl text-center">
-          <p className="text-sm font-medium text-violet-400">How it works</p>
+          <p className="text-sm font-medium text-cyan-300">How it works</p>
           <h2 className="mt-2 font-display text-3xl font-semibold tracking-tight sm:text-4xl">Up and running in three steps</h2>
         </div>
         <ol className="mt-14 grid gap-6 md:grid-cols-3">
@@ -45,7 +45,7 @@ export function IntegrationsSection() {
     <section id="integrations" className="scroll-mt-20 border-y bg-muted/20 py-24">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="mx-auto max-w-2xl text-center">
-          <p className="text-sm font-medium text-violet-400">Integrations</p>
+          <p className="text-sm font-medium text-cyan-300">Integrations</p>
           <h2 className="mt-2 font-display text-3xl font-semibold tracking-tight sm:text-4xl">Works where your customers already are</h2>
           <p className="mt-3 text-muted-foreground">Messaging channels and store platforms, connected to one workspace.</p>
         </div>

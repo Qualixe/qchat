@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Geist, Geist_Mono, Space_Grotesk } from "next/font/google";
+import { Bricolage_Grotesque, Geist, Geist_Mono } from "next/font/google";
 import { AppProviders } from "@/components/providers/app-providers";
 import "./globals.css";
 
@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 /** Display face for marketing headlines. */
-const spaceGrotesk = Space_Grotesk({
-  variable: "--font-space-grotesk",
+const displayFont = Bricolage_Grotesque({
+  variable: "--font-display-face",
   subsets: ["latin"],
 });
 
@@ -40,7 +40,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html
       lang="en"
       suppressHydrationWarning
-      className={`${geistSans.variable} ${geistMono.variable} ${spaceGrotesk.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} ${displayFont.variable} h-full antialiased`}
     >
       <body className="min-h-full">
         <AppProviders>{children}</AppProviders>
